@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gen-X Enterprises</title>
+
+</head>
+
+<body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <a class="navbar-brand mr-auto" href="#"><img src="img/logo.jpg" height="30" width="41"></a>
+                    <div class="collapse navbar-collapse" id="Navbar"> 
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-address-card fa-lg"></span> About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+
+                        </ul>
+                        <span class="navbar-text">
+                            <a id="loginButton">
+                                <span class="fa fa-sign-in"></span> Login
+                            </a>
+                        </span>
+                     </div>
+            </div>
+        </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Login</h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputEmail"> Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPasswod3"> Password</label>
+                                <input type="password" class="form-control form-control-sm-mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <header class="jumbotron">
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12 col-sm-6">
+                        <h1>Gen-X Enterprises</h1>
+                        <p>Manufacture of all types of Packing Boxes</p>
+                    </div>
+                    <div class="col-12 col-sm align-self-center">
+                        <img src="img/logo.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/corrugated box.jpg" alt="front" height="40%" width="40%">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="col-12 col-sm-6 offset-sm-6">
+                                <h2>Corrugated Box</h2>
+                            
+                                <p class="d-none d-sm-block">THERMAL INSULATION, SOUNDPROOFING, AIRTIGHT, FIRE RESISTANT… WHATEVER SOLUTION YOU’RE LOOKING FOR, YOU WILL FIND THE BEST SUITED FOR YOUR NEEDS.</p>
+                            </div>
+                        </div> 
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/duplex board mono cartons.jpg" alt="front" height="40%" width="40%">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="col-12 col-sm-6 offset-sm-6">
+                                <h2>Duplex Board Mono Cartons<span class= "badge badge-danger">NEW</span> <span class="badge badge-pill badge-secondary"></span></h2>
+                                <p class="d-none d-sm-block">THERMAL INSULATION, SOUNDPROOFING, AIRTIGHT, FIRE RESISTANT… WHATEVER SOLUTION YOU’RE LOOKING FOR, YOU WILL FIND THE BEST SUITED FOR YOUR NEEDS. </p>
+                            </div>
+                            </div>
+                        
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/corrugated sheet.jpg" alt="front" height="40%" width="40%">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="col-12 col-sm-6 offset-sm-6">
+                                <h2>Corrugated Sheet<span class= "badge badge-danger">NEW</span> <span class="badge badge-pill badge-secondary"></span></h2>
+                                <p class="d-none d-sm-block">THERMAL INSULATION, SOUNDPROOFING, AIRTIGHT, FIRE RESISTANT… WHATEVER SOLUTION YOU’RE LOOKING FOR, YOU WILL FIND THE BEST SUITED FOR YOUR NEEDS. </p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1"></li>
+                        <li data-target="#mycarousel" data-slide-to="2"></li>
+                    </ol>
+                    <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                            <span class="fa fa-pause"></span>
+                        </button>
+                    
+                </div>
+            </div>
+        </div>
+
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                    <h2>Cake Box</h2>
+                    <img class="d-flex ml-6 img-thumbnail align-self-center"
+                                src="img/cake box.jpg" alt="Cake box">
+                    <p>We provide different types of high quality Cake Box Online to our customers. Cake box is made of different types of paper material such as Kraft paper or golden paper etc. Buy Cake Box Online such as Golden Curved Cake Box, Kraft Plum Cake Box, Window Cake Box etc. and also Buy Different Shaped Cake Base that is flat and ensuring that it's easy to store and takes up less space</p>
+                </div>     
+    
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                        src="img/bakery product box.jpg" alt="backery" height="40%" width="40%">
+                    <div class="media-body">
+                        <h2 class="mt-0">Backery Product Box <span class= "badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Bakery product box If you are in baking business or inspired to be one, then Designer People is aware of how relevant it is for you to have quality customized bakery boxes and packaging design for building your company’s brand and reputation.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+        
+            <div class="col col-sm order-sm-last col-md">
+                <div class="media">
+                    <div class="media-body">
+                            <h2 class="mt-0">Dried Fruits And Nut Box<span class= "badge badge-danger">NEW</span> <span class="badge badge-pill badge-secondary"></span></h2>
+                            <p class="d-none d-sm-block">Dried fruit and nuts on a platter, traditionally eaten on Tu Bishvat.Dried fruit is fruit from which the majority of the original water content has been removed either naturally, through sun drying, or through the use of specialized dryers or dehydrators </p>    
+                        </div>
+                        <img class="d-flex ml-3 img-thumbnail align-self-center"
+                            src="img/dried fruits and nuts box.jpg" alt="Dried fruits"  height="40%" width="40%">
+                    </div>
+                </div>
+            </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                <h2>Mithai Box</h2>
+                <img class="d-flex ml-6 img-thumbnail align-self-center"
+                            src="img/mithai box.jpg" alt="Mithai box">
+
+            </div>
+            <div class="col col-sm order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail align-self-center"
+                     src="img/chococraft box.jpg" alt="chococraft box"  height="40%" width="40%">
+                    <div class="media-body">
+                        <h2>Chococraft Box</h2>
+                        
+                        <p class="d-none d-sm-block">At ChocoCraft we create gifting solutions by combining exquisite chocolates in beautiful packages. Our special offering is chocolates with prints on them. We make chocolates with designs, logos or messages printed on them. These are elegantly packed in boxes which are also customized according to the occasion. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+          <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="./aboutus.html">About</a></li>
+                        <li><a href="./contactus.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        Jiyauddin Compound Chawk Mandi<br>
+                        Nuri Chawk,Sarda Circle,Dwarka
+		                Nashik<br>
+                      <i class="fa fa-phone fa-lg"></i>: 9423629005 <br>
+                      <i class="fa fa-phone fa-lg"></i>: 9595539101<br>
+                      <i class="fa fa-envelope fa-lg"></i>: enquiry.genx@gmail.com<br>
+                      <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:enquiry.genx@gmail.com">mailto:enquiry.genx@gmail.com</a>
+		           </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook"></i></a>
+                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Gen-X Enterprises</p>
+                </div>
+           </div>
+        </div>
+    </footer>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#mycarousel').carousel({ interval: 2000 });
+                $('#carouselButton').click(function() {
+                    if ($('#carouselButton').children('span').hasClass('fa-pause')) {
+                        $('#mycarousel').carousel('pause');
+                        $('#carouselButton').children('span').removeClass('fa-pause');
+                        $('#carouselButton').children('span').addClass('fa-play');
+                    }
+                    else if ($('#carouselButton').children('span').hasClass('fa-play')) {
+                        $('#mycarousel').carousel('cycle');
+                        $('#carouselButton').children('span').removeClass('fa-play');
+                        $('#carouselButton').children('span').addClass('fa-pause');
+                    }
+                
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('#reserveButton').click(function() {
+                    $('#reserveModal').modal('show')
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $('#loginButton').click(function() {
+                    $('#loginModal').modal('show')
+                })
+            });
+        </script>
+    </body>
+
+    </html>
