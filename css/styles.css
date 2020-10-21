@@ -92,7 +92,6 @@ body {
     padding: 0;
     margin-bottom: -6px;
   }
-  
   .map iframe {
     width: 100%;
     height: 380px;
@@ -105,3 +104,4 @@ body {
   .footer a{
       color: white;
   }
+  
