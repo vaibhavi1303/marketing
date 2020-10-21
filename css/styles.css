@@ -23,8 +23,8 @@
     color: floralwhite;
 }
 
-ul>li{
-    text-decoration: none;
+ul{
+    list-style: none;
 }
 
 .address {
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar-dark {
-    background-color:#46326d;
+    background-color:#503682;
 }
 
 .tab-content {
@@ -96,4 +96,12 @@ body {
   .map iframe {
     width: 100%;
     height: 380px;
+  }
+
+  .footer{
+      color: white;
+      background-color: #503682;
+  }
+  .footer a{
+      color: white;
   }
