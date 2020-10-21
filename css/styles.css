@@ -105,3 +105,12 @@ body {
       color: white;
   }
   
+  @media (max-width: 992px) { 
+
+    .media-body{
+        margin: 0rem;
+    }
+    
+
+
+   }
